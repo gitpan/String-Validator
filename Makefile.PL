@@ -17,8 +17,11 @@ WriteMakefile(
 	'Regexp::Common' => 2011121001,
 	'Email::Valid' => 0.185,
 	'Email::Address' => 1.893,
-	'String::Validator::Password' => 0.90,
+	'String::Validator::Common' => 0.93,
+	'String::Validator::Password' => 0.93,
+	'String::Validator::Email' => 0.93,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'String-Validator-*' },
+
 );

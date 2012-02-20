@@ -8,18 +8,18 @@ use warnings;
 
 =head2 A Collection of Routines for validating strings
 
-You have a string and you need to know if it is what you need it to be. 
-You just wasted three hours before you realized it was going to take 
+You have a string and you need to know if it is what you need it to be.
+You just wasted three hours before you realized it was going to take
 longer than you thought and just started to poke around cpan to find
 something to use instead. The String Validator Collection is what you are looking for.
 
-Since as often as not you're not just validating strings, but also 
+Since as often as not you're not just validating strings, but also
 trying to get them into a specific format, many String::Validator Modules
 will do this.
 
 =head3 This Module is Empty
 
-The Core Module, String::Validator is empty. It contains some common 
+The Core Module, String::Validator is empty. It contains some common
 documentation, and all other String::Validator Modules are dependencies
 to install it. You can type cpanm String::Validator to install the current
 version of all of the Modules.
@@ -73,26 +73,26 @@ and will be documented in their own POD.
 
 =head1 Making Validator Better
 
-Everything Validator does is a waste of time (if you had to do it yourself). 
-So if you find you've wasted time validating something that fits 
-with the Validator theme, write it up and send it in. If you think 
-Validator does a poor job of something, send us a better solution. 
+Everything Validator does is a waste of time (if you had to do it yourself).
+So if you find you've wasted time validating something that fits
+with the Validator theme, write it up and send it in. If you think
+Validator does a poor job of something, send us a better solution.
 If you already made a module even better, Validator is all
-about dependency on other modules that do validation just suggest. 
-If you read the sub-modules you'll see that many of them are just 
+about dependency on other modules that do validation just suggest.
+If you read the sub-modules you'll see that many of them are just
 wrappers around other validation modules.
 
 
 =head1 VERSION
 
-Version 0.90
+Version 0.93
 
 =cut
 
-our $VERSION = '0.90';
+our $VERSION = '0.93';
 
 return 0;
-	
+
 
 
 =head1 AUTHOR
