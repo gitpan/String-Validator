@@ -85,11 +85,11 @@ wrappers around other validation modules.
 
 =head1 VERSION
 
-Version 0.93
+Version 0.95
 
 =cut
 
-our $VERSION = '0.93';
+our $VERSION = '0.95';
 
 return 0;
 

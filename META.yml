@@ -24,5 +24,6 @@ requires:
   String::Validator::Common: 0.93
   String::Validator::Email: 0.93
   String::Validator::Password: 0.93
+  String::Validator::Phone::NANP: 0.1
   Test::More: 0
-version: 0.93
+version: 0.95

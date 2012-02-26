@@ -20,6 +20,7 @@ WriteMakefile(
 	'String::Validator::Common' => 0.93,
 	'String::Validator::Password' => 0.93,
 	'String::Validator::Email' => 0.93,
+	'String::Validator::Phone::NANP' => 0.10,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'String-Validator-*' },
