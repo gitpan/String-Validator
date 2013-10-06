@@ -4,7 +4,9 @@ use 5.006;
 use strict;
 use warnings;
 
-=head1 String::Validator
+=head1 NAME 
+
+String::Validator
 
 =head2 A Collection of Routines for validating strings
 
@@ -70,6 +72,12 @@ and will be documented in their own POD.
      maybe
  if ( $Validator->IsNot_Valid('ThisString', 'RepeatThisString') { do something }
  say  $Validator->String ;
+ 
+=head2 CamelCase lowercase
+
+The base class String::Validator::Common provides both the CamelCase and lowercase
+versions of the methods it provides for use by the end user of the inheriting module,
+this is done to make it even more convenient.
 
 =head1 Making Validator Better
 
@@ -85,11 +93,11 @@ wrappers around other validation modules.
 
 =head1 VERSION
 
-Version 0.95
+Version 0.97
 
 =cut
 
-our $VERSION = '0.95';
+our $VERSION = '0.97';
 
 return 0;
 
